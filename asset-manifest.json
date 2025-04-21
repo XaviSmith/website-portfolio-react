@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/website-portfolio-react/static/css/main.ca0878c6.css",
-    "main.js": "/website-portfolio-react/static/js/main.6ae07a08.js",
+    "main.js": "/website-portfolio-react/static/js/main.a5efb877.js",
     "static/js/488.8a0a6976.chunk.js": "/website-portfolio-react/static/js/488.8a0a6976.chunk.js",
     "static/media/LinkedIn3.png": "/website-portfolio-react/static/media/LinkedIn3.d6662df6d7ecfb9d7615.png",
     "static/media/AWSIcons.png": "/website-portfolio-react/static/media/AWSIcons.feaad9f363674b5a8ee8.png",
     "static/media/background.jpg": "/website-portfolio-react/static/media/background.cd699bed182575fb016b.jpg",
     "static/media/UnrealIcon.png": "/website-portfolio-react/static/media/UnrealIcon.b9f308442ac6173fde61.png",
     "static/media/Java-Icon.png": "/website-portfolio-react/static/media/Java-Icon.1eb26d15c955096cc5ce.png",
+    "static/media/CSharpLogo.png": "/website-portfolio-react/static/media/CSharpLogo.27bd9c64b03888a2661d.png",
     "static/media/AsepriteIcon.png": "/website-portfolio-react/static/media/AsepriteIcon.fb7ff4c33bfb8d562008.png",
     "static/media/TypescriptIcon.png": "/website-portfolio-react/static/media/TypescriptIcon.af40c277db56e6ccd9a7.png",
     "static/media/SqlIcon.png": "/website-portfolio-react/static/media/SqlIcon.26e07c0c18c63ac6bba3.png",
@@ -20,6 +21,7 @@
     "static/media/GithubLogo.png": "/website-portfolio-react/static/media/GithubLogo.731c4dab7b85914a9dd2.png",
     "static/media/JavascriptIcon.webp": "/website-portfolio-react/static/media/JavascriptIcon.00fd0fae01e451c5460a.webp",
     "static/media/UnityIcon.png": "/website-portfolio-react/static/media/UnityIcon.860907be4f06ea56dbf4.png",
+    "static/media/C++Logo.png": "/website-portfolio-react/static/media/C++Logo.ae17c0fa57cefe50db7d.png",
     "static/media/ReactLogo.webp": "/website-portfolio-react/static/media/ReactLogo.2a0cac33f155e4a27216.webp",
     "static/media/Python.webp": "/website-portfolio-react/static/media/Python.d7e51f27ee9bb081cea7.webp",
     "static/media/FirebaseLogo.webp": "/website-portfolio-react/static/media/FirebaseLogo.1dd8330ebb32c90c3516.webp",
@@ -29,11 +31,11 @@
     "static/media/gradleIcon.svg": "/website-portfolio-react/static/media/gradleIcon.d0666794157e16eacfdcd7c507a620ea.svg",
     "index.html": "/website-portfolio-react/index.html",
     "main.ca0878c6.css.map": "/website-portfolio-react/static/css/main.ca0878c6.css.map",
-    "main.6ae07a08.js.map": "/website-portfolio-react/static/js/main.6ae07a08.js.map",
+    "main.a5efb877.js.map": "/website-portfolio-react/static/js/main.a5efb877.js.map",
     "488.8a0a6976.chunk.js.map": "/website-portfolio-react/static/js/488.8a0a6976.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca0878c6.css",
-    "static/js/main.6ae07a08.js"
+    "static/js/main.a5efb877.js"
   ]
 }
