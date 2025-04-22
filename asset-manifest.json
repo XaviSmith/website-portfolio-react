@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "https://xavismith.github.io/website-portfolio-react/static/css/main.9ce1189b.css",
+    "main.css": "https://xavismith.github.io/website-portfolio-react/static/css/main.3cced602.css",
     "main.js": "https://xavismith.github.io/website-portfolio-react/static/js/main.8d4e02b1.js",
     "static/js/488.8a0a6976.chunk.js": "https://xavismith.github.io/website-portfolio-react/static/js/488.8a0a6976.chunk.js",
     "static/media/LinkedIn3.png": "https://xavismith.github.io/website-portfolio-react/static/media/LinkedIn3.d6662df6d7ecfb9d7615.png",
@@ -32,12 +32,12 @@
     "static/media/php.svg": "https://xavismith.github.io/website-portfolio-react/static/media/php.099cd051f27e93830fcdb7b1ac05bc40.svg",
     "static/media/gradleIcon.svg": "https://xavismith.github.io/website-portfolio-react/static/media/gradleIcon.d0666794157e16eacfdcd7c507a620ea.svg",
     "index.html": "https://xavismith.github.io/website-portfolio-react/index.html",
-    "main.9ce1189b.css.map": "https://xavismith.github.io/website-portfolio-react/static/css/main.9ce1189b.css.map",
+    "main.3cced602.css.map": "https://xavismith.github.io/website-portfolio-react/static/css/main.3cced602.css.map",
     "main.8d4e02b1.js.map": "https://xavismith.github.io/website-portfolio-react/static/js/main.8d4e02b1.js.map",
     "488.8a0a6976.chunk.js.map": "https://xavismith.github.io/website-portfolio-react/static/js/488.8a0a6976.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ce1189b.css",
+    "static/css/main.3cced602.css",
     "static/js/main.8d4e02b1.js"
   ]
 }
