@@ -7,10 +7,14 @@
     flex-direction: row;
     background-color: rgba(0,0,0,.2);
     border-radius: var(--bRadius);
+    /*border: 2px solid rgba(210, 210, 210, 0.2);*/
     margin: 3%;
     width: 75vw;
     height: 33.15vw;
-    box-shadow: 1vw 2.5vh .75vw 1px #000;
+    box-shadow:
+    0 0 7px 1px #48abe057,
+    0 0 9px 2px #356366fb,
+    1vw 2.5vh .75vw 1px #000;
     transition: all 0.1s ease-out;
     /*border: 2px solid #164049; */
 
@@ -30,10 +34,11 @@
 .card-img{
     cursor: pointer;
     border-radius: var(--bRadius) 0 0 var(--bRadius);
-    background-image: linear-gradient(0deg,#222 , #111 20%);
-    border-right: 1px solid #111;
-    box-shadow: 2px 0px 5px 0px #0f0f0f;
-    z-index: 200;
+    /*background-image: linear-gradient(0deg,#222 , #111 20%);*/
+    background-color: rgba(110,110,110, 0.1);
+    /*border-right: 2px solid rgba(210, 210, 210, 0.2);
+    box-shadow: 1px 0px 1px 0px rgba(210, 210, 210, 0.2);;*/
+    z-index: 0;
     object-fit: contain;
     width: 33vw;
     height: 33vw;
@@ -56,7 +61,7 @@
     border-radius: 0px var(--bRadius) var(--bRadius) 0;
     flex-direction: column;
     width: 100%;
-    background-image: linear-gradient(180deg, rgba(10, 10, 10, 0.5) , rgba(10, 10, 10, 0.5));
+    background-image: linear-gradient(180deg, rgba(110, 110, 110, 0.1) , rgba(110, 110, 110, 0.1));
     /*background-color: #ccc;
     /*border: 1px solid green; */
 }
@@ -96,7 +101,8 @@
 .body-text{
     white-space: pre-wrap; /*respect \n */
     height: 100%;
-    text-shadow: .15vw .15vw .2vw #aaa;
+    color: rgb(226, 226, 226);
+    text-shadow: .2vw .2vw .2vw #000;
     align-content: center;
     font-size: 1.25vw;
     margin: 2vw;
@@ -106,22 +112,29 @@
 @media screen and (max-width:600px){
     
     .cardContainer{
-        margin-right: 0px;
+        align-items: center;
+        justify-content: center;
+        width: 95vw;
+        margin: 0px;
     }
 
     .card{
         flex-direction: column;
+        box-shadow:
+        0 0 7px 1px #48abe057,
+        0 0 9px 2px #356366fb;
         margin: 0px;
-        margin-left: 8vw;
-        width: 90vw;
-        height: 50vh;
+        margin-top: max(2%, 30px);
+        margin-bottom: max(2%, 30px);;
+
+        width: 93%;
+        height: 70vh;
     }
     
     .card-img{
-        margin-top: 10px;
+        margin-top: 0px;
         height: 21vh;
-        width: 80vw;
-        border-radius: 10px 10px 0px 0px;
+        width: 100%;
         object-fit: contain;
     }
 
@@ -131,10 +144,10 @@
     }
 
     .card-right{
-        height: 28vh;
-        width: 80vw;
-        border-radius: 0px 0px 10px 10px;
-        background-image: linear-gradient(180deg, #003764 20%, #bbb 1%, #fff 99%);
+        margin-bottom: 0px;
+        height: 100%;
+        width: 100%;
+        /*background-image: linear-gradient(180deg, #003764 20%, #bbb 1%, #fff 99%);*/
     }
 
     .title{
@@ -147,7 +160,9 @@
     }
 
     .body-text{
-        margin-top: 20px;
-        font-size: 10px;
+        margin-top: max(10%, 40px);
+        font-size: 14px;
+        text-align: center;
+        align-content: flex-start;
     }
 }
