@@ -75,7 +75,7 @@
     margin-top: 2%;
     font-size: 1.65vw;
     font-weight: bold;
-    text-shadow: .3vw .3vw .2vw black;
+    text-shadow: .2vw .15vw .2vw black;
     transition: all 0.1s ease-out;
     /*border: 1px solid black;*/
 }
