@@ -1,0 +1,42 @@
+.Navbar-header{
+    background-image: linear-gradient(0deg, #303030 1%, #414141 30%);/*linear-gradient(0deg, #102226 1%, #0e1116 30%);*/
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    justify-content: right;
+    align-items: center;
+    color:honeydew;
+    padding-right: 60px;
+    height: 10vh;
+}
+
+
+.Navbar-item{
+color: honeydew;
+font-size: 18px;
+font-weight:600;
+text-decoration: none;
+}
+
+.Navbar-item:hover{
+/*color:#61dafb;*/
+color:honeydew;
+font-size: 20px;
+}
+
+
+/*Needs this exact combination for the active key styling */
+.nav-underline .nav-link.active
+{
+color:#61dafb;
+}
+
+
+/*********MOBILE STYLING ************/
+@media screen and (max-width: 900px) {
+    .Navbar-header{
+        display: none;
+        justify-content: center;
+        padding-right: 0;
+    }
+}
