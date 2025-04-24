@@ -115,7 +115,9 @@ function Home()
                                 <div style={{display: 'flex', flexDirection: 'column'}}>
                                     
 
-                                    <p className= {windowSize.width > 820 ? "Home-intro" : "section-title"}>Welcome</p>
+                                    <p className= {windowSize.width > 820 ? "Home-intro" : "section-title"} style={windowSize.width > 820 ? {} : {marginBottom:10}}>
+                                        Welcome
+                                    </p>
                                     <p >I'm <span className="Home-name-text">Xavier Smith</span></p>
 
                                         {windowSize.width < 820 && //********************Image inside the main box on mobile.**********************
