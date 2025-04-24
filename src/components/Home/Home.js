@@ -115,7 +115,7 @@ function Home()
                                 <div style={{display: 'flex', flexDirection: 'column'}}>
                                     
 
-                                    <p className="Home-intro">Welcome</p>
+                                    <p className= {windowSize.width > 820 ? "Home-intro" : "section-title"}>Welcome</p>
                                     <p >I'm <span className="Home-name-text">Xavier Smith</span></p>
 
                                         {windowSize.width < 820 && //********************Image inside the main box on mobile.**********************
@@ -154,7 +154,7 @@ function Home()
                             </div>
 
                             {windowSize.width > 820 && //Image to the right on desktop
-                                <div className="welcome-pic-container" style={{height: welcomePicHeight*1.4, width: welcomePicHeight * 1.8, maxHeight: "45vh", maxWidth: "40vw", minHeight: welcomePicHeight, marginLeft:'auto'}}>
+                                <div className="welcome-pic-container" style={{height: welcomePicHeight*1.4, width: welcomePicHeight * 1.7, maxHeight: "45vh", maxWidth: "40vw", minHeight: welcomePicHeight, marginLeft:'auto'}}>
                                     <img src={profilePic} className='welcome-pic' alt="Profile Pic"></img>
                                 </div>
                                     
@@ -195,7 +195,7 @@ function Home()
 
             {/* *******************Skills icons section?*******************************/}
                                 
-            <div style={{display: 'flex', flexDirection: 'column', alignSelf: 'center', width: "100%", height: "100%", alignItems: 'center', backgroundColor:  "rgba(0, 0, 0, .7)",
+            <div style={{display: 'flex', flexDirection: 'column', alignSelf: 'center', width: "100%", height: "100%", minHeight: "100vh", alignItems: 'center', backgroundColor:  "rgba(0, 0, 0, .7)",
                 /*borderTop: 'solid', borderColor: "#111",*/ marginTop: 50, marginBottom: 40}} ref={skillsRef}>                        
     
                     <p className="section-title">Skills</p>
@@ -244,11 +244,11 @@ function Home()
                             <p style={{textAlign: 'center', fontSize: 38, fontWeight: 'bold'}}>Backend</p>
 
                             <div className='skill-icon-container'>
-                                <SkillIcon icon={phpIcon} title=".php"/>                                   
-                                <SkillIcon icon={sqlIcon} title="SQL" iconWidth={80}/>
+                                <SkillIcon icon={phpIcon} title=".php" style={{padding:4}}/>                                   
+                                <SkillIcon icon={sqlIcon} title="SQL" iconWidth={80} style={{padding:6}}/>
                                 <SkillIcon icon={awsIcon} title="AWS" style={{padding: 14}} />
                                 <SkillIcon icon={pythonIcon} title="Python"/>
-                                <SkillIcon icon={bitbucketIcon} title="Bitbucket"/>
+                                <SkillIcon icon={bitbucketIcon} title="Bitbucket" style={{padding:6}}/>
                             </div>
                         </div>
 
@@ -259,7 +259,7 @@ function Home()
                                 <div className='skill-icon-container'>
                                     <SkillIcon icon={reactIcon} title="React-Native"/>                                   
                                     <SkillIcon icon={xcodeIcon} title="XCode"/>
-                                    <SkillIcon icon={androidStudioIcon} title="Android Studio" />
+                                    <SkillIcon icon={androidStudioIcon} title="Android Studio" style={{padding:6}} />
                                     <SkillIcon icon={firebaseIcon} title="Firebase"/>
                                     <SkillIcon icon={gradleIcon} title="Gradle" />
                                 </div>
@@ -271,8 +271,8 @@ function Home()
                                 <p style={{textAlign: 'center', fontSize: 38, fontWeight: 'bold'}}>Other</p>
 
                                 <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center'}}>
-                                    <SkillIcon icon={javaIcon} title="Java" style={{padding:10}}/>                                   
-                                    <SkillIcon icon={reaperIcon} title="Reaper"/>
+                                    <SkillIcon icon={javaIcon} title="Java" style={{padding:6}}/>                                   
+                                    <SkillIcon icon={reaperIcon} title="Reaper" style={{padding:6}}/>
                                 </div>
 
                         </div>
