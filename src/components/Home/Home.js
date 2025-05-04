@@ -156,7 +156,7 @@ function Home()
                             </div>
 
                             {windowSize.width > 820 && //Image to the right on desktop
-                                <div className="welcome-pic-container" style={{height: welcomePicHeight*1.4, width: welcomePicHeight * 1.7, maxHeight: "45vh", maxWidth: "40vw", minHeight: welcomePicHeight, marginLeft:'auto'}}>
+                                <div className="welcome-pic-container" style={{height: welcomePicHeight*1.4, width: welcomePicHeight * 1.7, maxHeight: "max(45vh, 420px)", maxWidth: "min(40vw, 560px)", minHeight: welcomePicHeight, marginLeft:'auto'}}>
                                     <img src={profilePic} className='welcome-pic' alt="Profile Pic"></img>
                                 </div>
                                     

@@ -5,7 +5,7 @@
 .card{
     display: flex;
     flex-direction: row;
-    background-color: rgba(0,0,0,.2);
+    background-color: rgba(0,0,0,.4);
     border-radius: var(--bRadius);
     /*border: 2px solid rgba(210, 210, 210, 0.2);*/
     margin: 3%;
@@ -100,13 +100,26 @@
 
 .body-text{
     white-space: pre-wrap; /*respect \n */
-    height: 100%;
+    height: 60%;
     color: rgb(226, 226, 226);
     text-shadow: .2vw .2vw .2vw #000;
     align-content: center;
     font-size: 1.25vw;
     margin: 2vw;
     margin-top: 6vh;
+}
+
+.skills-card-container
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 20%;
+    width: 100%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: white;
+    gap: 10px;
 }
 
 @media screen and (max-width:600px){
@@ -160,9 +173,18 @@
     }
 
     .body-text{
-        margin-top: max(10%, 40px);
-        font-size: 14px;
+        margin-top: max(10%, 30px);
+        font-size: .55em;
         text-align: center;
+        border: 1px solid green;
         align-content: flex-start;
+    }
+
+    .skills-card-container
+    {
+        align-items: flex-end;
+        font-size: 6vw;
+        padding-right: 5px;
+        padding-bottom: 5px;
     }
 }
