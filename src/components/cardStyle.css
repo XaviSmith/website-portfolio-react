@@ -176,7 +176,7 @@
         margin-top: max(10%, 30px);
         font-size: .55em;
         text-align: center;
-        border: 1px solid green;
+        /*border: 1px solid green;*/
         align-content: flex-start;
     }
 

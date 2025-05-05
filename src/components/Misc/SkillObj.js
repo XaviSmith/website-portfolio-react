@@ -9,7 +9,7 @@ function SkillIcon({icon, title, style, fontSize=18, used=false, mini=false, ico
 
     return(
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', marginRight: 0, width: mini ? iconWidth :110, marginBottom: mini ? 0 : 15}}>
-            <img src={icon} className= "skill-icon" style={{...style, height: iconHeight, width: iconWidth}} alt="Me"/>
+            <img src={icon} className= "skill-icon" style={{...style, height: iconHeight, width: iconWidth}} alt={title}/>
             {!mini &&
                 <p style={{textAlign: 'center', color: used ? "#fffb00" :"inherit", fontWeight: used ? 600: 600,fontSize: fontSize}}>{title}</p>
             }
