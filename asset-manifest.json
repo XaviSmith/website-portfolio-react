@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "https://xavismith.github.io/website-portfolio-react/static/css/main.9fb7f5ca.css",
-    "main.js": "https://xavismith.github.io/website-portfolio-react/static/js/main.c8637edd.js",
+    "main.css": "https://xavismith.github.io/website-portfolio-react/static/css/main.a61f0e3a.css",
+    "main.js": "https://xavismith.github.io/website-portfolio-react/static/js/main.ab4b018f.js",
     "static/js/488.8a0a6976.chunk.js": "https://xavismith.github.io/website-portfolio-react/static/js/488.8a0a6976.chunk.js",
     "static/media/LinkedIn3.png": "https://xavismith.github.io/website-portfolio-react/static/media/LinkedIn3.d6662df6d7ecfb9d7615.png",
     "static/media/LKIcon2.png": "https://xavismith.github.io/website-portfolio-react/static/media/LKIcon2.2f54ab98ce723802a8fb.png",
@@ -33,12 +33,12 @@
     "static/media/php.svg": "https://xavismith.github.io/website-portfolio-react/static/media/php.7d28d30bbef7c6e4156c1fc581a6b0f0.svg",
     "static/media/gradleIcon.svg": "https://xavismith.github.io/website-portfolio-react/static/media/gradleIcon.082f3ec06458a0c83c8b5234e929e9c3.svg",
     "index.html": "https://xavismith.github.io/website-portfolio-react/index.html",
-    "main.9fb7f5ca.css.map": "https://xavismith.github.io/website-portfolio-react/static/css/main.9fb7f5ca.css.map",
-    "main.c8637edd.js.map": "https://xavismith.github.io/website-portfolio-react/static/js/main.c8637edd.js.map",
+    "main.a61f0e3a.css.map": "https://xavismith.github.io/website-portfolio-react/static/css/main.a61f0e3a.css.map",
+    "main.ab4b018f.js.map": "https://xavismith.github.io/website-portfolio-react/static/js/main.ab4b018f.js.map",
     "488.8a0a6976.chunk.js.map": "https://xavismith.github.io/website-portfolio-react/static/js/488.8a0a6976.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fb7f5ca.css",
-    "static/js/main.c8637edd.js"
+    "static/css/main.a61f0e3a.css",
+    "static/js/main.ab4b018f.js"
   ]
 }
