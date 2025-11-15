@@ -73,7 +73,7 @@
     height: 3vw;
     text-align: center;
     margin-top: 2%;
-    font-size: 1.65vw;
+    font-size: 1.6vw;
     font-weight: bold;
     text-shadow: .2vw .15vw .2vw black;
     transition: all 0.1s ease-out;
@@ -164,7 +164,7 @@
     }
 
     .title{
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .roles{

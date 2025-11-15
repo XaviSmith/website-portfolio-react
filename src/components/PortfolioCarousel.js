@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import unityIcon from 'images/UnityIcon.png';
 import lkIcon from "images/LKIcon2.png";
+import updatePendingIcon from 'images/UpdatePendingLogo.png';
 import cityHallIcon from "images/CityHallIcon.png";
 import reactLogo from "images/ReactLogo.webp";
 import caresenseLogo from "images/CaresenseLogo.png"
@@ -29,11 +30,24 @@ const featuredPortfolioList = [
         image: lkIcon,
         iconLink: "https://store.steampowered.com/app/3162850/Lightning_Katana/",
         body: "A fast-paced 3D Action FPS inspired by Hotline Miami, Devil May Cry and Doom with Slick movement, precise parries, and electrifying abilities.\n\n" +
-        "I oversaw the game design, art, and production from start to finish, created a highly customizable engine for making and configuring enemy AI/Attacks/Abilities, level creation, and simple triggers/event scripting for non-programmers, and integrated backend features for leaderboards, authentication, and live deployment.",
+        "I led a team of 4, oversaw the game design, art, and production from start to finish, and served as the only programmer. I also created a highly customizable engine for making and configuring enemy AI/Attacks/Abilities, level creation, and simple triggers/event scripting for non-programmers, and integrated backend features for leaderboards, authentication, and live deployment.",
         programs: ["Unity"],
         languages: ["C#"],
         platform: ["PC (Steam)"],
         genre: ["FPS", "Action", "Boomer-Shooter"]
+    },
+    {
+        title: "An Update Is Pending | Juicy Pulp Games (2020)",
+        titleColor: "#ffbf11",
+        roles: "Project Lead, Lead Developer",
+        image: updatePendingIcon,
+        iconLink: "https://store.steampowered.com/app/1073450/An_Update_is_Pending/",
+        body: "A game about updating the game! Arcade-style platformer where players balance spending bits on powerups or “upgrading” the game, from music to 'purchasing' the final boss! \n\n" +
+        "I led a team of 3 and oversaw the programming, game design, art, and production from start to finish, and handled the Steam integrations. I also implemented the shops, upgrades and upgrade system, and all the UI/UX programming",
+        programs: ["Unity"],
+        languages: ["C#"],
+        platform: ["PC (Steam)"],
+        genre: ["Management", "Action", "Casual"]
     },
     {
         title: "City Hall | Skyless Game Studios",
