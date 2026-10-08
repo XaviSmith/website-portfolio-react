@@ -37,6 +37,7 @@ const featuredPortfolioList = [
         genre: ["FPS", "Action", "Boomer-Shooter"]
     },
     {
+        //personal: true,
         title: "An Update Is Pending | Juicy Pulp Games (2020)",
         titleColor: "#ffbf11",
         roles: "Project Lead, Lead Developer",
