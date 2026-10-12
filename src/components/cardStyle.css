@@ -173,6 +173,10 @@
         transition: none;
     }
 
+    .card-left {
+        align-self: center;
+    }
+
     .card-right{
         margin-bottom: 0px;
         height: 100%;
